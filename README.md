@@ -182,6 +182,7 @@ else:
   print(str2.replace(n,m))
 
 
+![image](https://github.com/user-attachments/assets/48b4bf0b-3c93-458d-8906-9df8854dfe5d)
 
 
 
