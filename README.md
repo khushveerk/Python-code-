@@ -185,10 +185,33 @@ else:
 ![image](https://github.com/user-attachments/assets/48b4bf0b-3c93-458d-8906-9df8854dfe5d)
 
 
+## practical 6 -
 
+print("Enter the first string:", end="")
 
+string1 =input()
 
+print("Enter the second string:", end="")
 
+string2 =input()
+
+print("\nstring before swap: ")
+
+print(" string1 =", string1)
+
+print(" string2 =", string2)
+
+temp = string1 
+
+string1 = string2
+
+string2 = temp
+
+print("\nstring before swap: ")
+
+print(" string1 =", string1)
+
+print(" string2 =", string2)
 
 
 
