@@ -161,6 +161,9 @@ else:
 ![IMG-20241106-WA0010](https://github.com/user-attachments/assets/af3bf10a-22b0-41d2-bb60-c8e6d3c881b9)
     
    
+## practical 5
 
+
+![IMG_20241106_115748_028](https://github.com/user-attachments/assets/bac06745-7b54-4056-84ee-a461fb68ec19)
 
     
