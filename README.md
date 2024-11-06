@@ -1,7 +1,6 @@
 # Python-code-
 ## practical 1 - WAP to find the roots of a quadratic equation.
 
-print("Equation: ax^2 + bx + c ")
 
 a=int(input("Enter a: "))
 
@@ -9,17 +8,14 @@ b=int(input("Enter b: "))
 
 c=int(input("Enter c: "))
 
-d=b**2-4*a*c
+d= b** 2-4*a*c 
 
-d1=d**0.5
+   r1 =(-b + (d)**0.5)/2*a
+   r2 =(-b - (d)**0.5)/2*a
+if d>= 0:
+   prinrt("The roots are real" , r1 ,r2)
 
-if(d<0):
-    print("The roots are imaginary. ")
-    
-else:
-    r1=(-b+d1)/2*a
-    r2=(-b-d1)/2*a
-    
-   print("The first root: ",round(r1,2))
+else: 
+   print(" roots are not real")
    
-   print("The second root: ",round(r2,2))
+
