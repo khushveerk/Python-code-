@@ -134,8 +134,6 @@ print_reverse_pyramid(rows)
 charac= input(" Enter the data: ")
 if charac >= 'A' and charac <= 'Z':
   
-
-
     
 
 
