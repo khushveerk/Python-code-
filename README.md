@@ -175,11 +175,11 @@ m=str2[ :n1]
 
 if n1 <= min(len(str1),le(str)):
   
-  print(str1.replace(n,m)
+  print(str1.replace(n,m))
 
 else:
   
-  print(str2.replace(n,m)
+  print(str2.replace(n,m))
 
 
 
