@@ -22,6 +22,10 @@ else:
 
    print(" roots are not real")
 
+![IMG-20241106-WA0005](https://github.com/user-attachments/assets/8112c4bc-faff-4f76-8d8e-383c53c203e0)
+
+![IMG-20241106-WA0004](https://github.com/user-attachments/assets/f4c204ea-cc13-4349-b7b5-3d59429c9c77)
+
 
 ## practical 2 - WAP to accept a number 'n' to compute the following:
 
