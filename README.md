@@ -151,10 +151,16 @@ elif charac >= '0' and charac <= '9':
    print(dict[n])
 
 else:
-    
+
    print(charac, "is a Special Character")   
 
+   
+![IMG-20241106-WA0011](https://github.com/user-attachments/assets/532abd9e-cfa7-4fd0-aa49-4ac96f3a142f)
 
+
+![IMG-20241106-WA0010](https://github.com/user-attachments/assets/af3bf10a-22b0-41d2-bb60-c8e6d3c881b9)
+    
+   
 
 
     
