@@ -99,7 +99,7 @@ def print_pyramid(n):
         # Print asterisks
         print('*' * (2 * i + 1))
 
-# Number of rows for the pyramid
+#Number of rows for the pyramid
 rows = 5
 print("Pyramid:")
 print_pyramid(rows)
@@ -111,7 +111,7 @@ def print_reverse_pyramid(n):
         # Print asterisks
         print('*' * (2 * i - 1))
 
-# Number of rows for the reverse pyramid
+#Number of rows for the reverse pyramid
 rows = 5
 print("\nReverse Pyramid:")
 print_reverse_pyramid(rows)
