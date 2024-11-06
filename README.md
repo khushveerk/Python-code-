@@ -93,27 +93,34 @@ Output enter value 100 2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 
 
 
 def print_pyramid(n):
-    for i in range(n):
-        # Print spaces
-        print(' ' * (n - i - 1), end='')
-        # Print asterisks
-        print('*' * (2 * i + 1))
+   
+   for i in range(n):
+     
+     print(' ' * (n - i - 1), end='')
+     
+     print('*' * (2 * i + 1))
 
 #Number of rows for the pyramid
 rows = 5
+
 print("Pyramid:")
+
 print_pyramid(rows)
 
+
 def print_reverse_pyramid(n):
-    for i in range(n, 0, -1):
-        # Print spaces
-        print(' ' * (n - i), end='')
-        # Print asterisks
-        print('*' * (2 * i - 1))
+   
+   for i in range(n, 0, -1):
+    
+     print(' ' * (n - i), end='')
+    
+     print('*' * (2 * i - 1))
 
 #Number of rows for the reverse pyramid
 rows = 5
+
 print("\nReverse Pyramid:")
+
 print_reverse_pyramid(rows)
 
 
