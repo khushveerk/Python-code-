@@ -16,7 +16,7 @@ d= b** 2-4*a*c
 
 if d>= 0:
 
-   prinrt("The roots are real" , r1 ,r2)
+   print("The roots are real" , r1 ,r2)
 
 else: 
 
