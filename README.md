@@ -161,7 +161,28 @@ else:
 ![IMG-20241106-WA0010](https://github.com/user-attachments/assets/af3bf10a-22b0-41d2-bb60-c8e6d3c881b9)
     
    
-## practical 5
+## practical 5 - WAP to swap the first n characters of two strings .
+
+str1 =input("enter first string ")
+
+str2 =input("enter second string ")
+
+n1 =int(input("enter no of characters which is to be swap: "))
+n=str1[ :n1]
+m=str2[ :n1]
+if n1 <= min(len(str1),le(str)):
+  print(str1.replace(n,m)
+else:
+  print(str2.replace(n,m)
+
+
+
+
+
+
+
+
+
 
 
 ![IMG_20241106_115748_028](https://github.com/user-attachments/assets/bac06745-7b54-4056-84ee-a461fb68ec19)
