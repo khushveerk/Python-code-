@@ -123,6 +123,9 @@ print("\nReverse Pyramid:")
 
 print_reverse_pyramid(rows)
 
+![IMG-20241106-WA0009](https://github.com/user-attachments/assets/00f62032-1d63-4650-902e-1fa292b5f22f)
+
+![IMG-20241106-WA0008](https://github.com/user-attachments/assets/88de3a7a-4f38-4621-a542-bd7bed445a53)
 
 
 
