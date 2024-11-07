@@ -343,6 +343,7 @@ def cubes():
 
 cubes()
 
+![Screenshot 2024-11-07 132054](https://github.com/user-attachments/assets/262fb515-ef5b-405d-bd72-167353996637)
 
 
 
