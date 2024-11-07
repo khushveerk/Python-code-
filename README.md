@@ -399,6 +399,7 @@ def cubes():
 
 cubes()
 
+![Screenshot 2024-11-07 151910](https://github.com/user-attachments/assets/0aee5bdc-285f-4723-b396-0b4ca85f8824)
 
 
 
