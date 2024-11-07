@@ -167,7 +167,7 @@ print_reverse_pyramid(rows)
 
 ## practical 4 - WAP that accepts a character and performances the following.
 
-### a. print whether the character is a letter or numeric digit or a special character. 
+### a. print whether the character is a letter or numeric digit or a special character.    
 
 ### b. if the character is a letter, print whether the letter is uppercase or lowercase. 
 
@@ -323,8 +323,18 @@ print(string[ :2])
 ![Screenshot 2024-11-07 114538](https://github.com/user-attachments/assets/9df7d84a-bd5e-4c58-a7f0-028ada7db6bb)
 
 
+## practical 8 - WAP  to create a list of only the even integers appearing in the list (may have elements of other types ) using for loop and list comprehension.
 
+def cubes():
+  newlist =[]
+  number = [1,3,5,2,7,4,"five"]
 
+  for i in number:
+   if type(i)==int:
+     if i%2 ==0:
+      newlist.append(i**3)
+  print(newlist)
+cubes()
 
 
 
