@@ -481,12 +481,39 @@ except Exception as e:
 ![Screenshot 2024-11-07 160243](https://github.com/user-attachments/assets/a9864f28-1803-46bc-9098-31097e2e6b2f)
 
 
-## practical 13.- page==9.pdf
+## practical 13.- WAP to read a file and
 
-{write before this to}
+### a. Print the total numbers of characters words and lines in the file.
+
+### b. Calculate the frequency of each character in the file. Use of variable of dictionary type to maintain the count.
+
+### c. Print the words in reverse order.
+
+### d. Copy even lines of the file to the file named "file 1" and odd lines to another file "file 2".
+
+def filehandling():
+   
+   f=open( https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt,'r')
+   
+   data =f.read()
+   
+   f.close()
+
+   words =data.split()
+   
+   lines =len(data.splitlines())
+   
+   print(" lines in the text file is:" ,lines)
+   
+   print(" Number of words in text file",len(words))
+   
+   print(" Number of characters in text file",len(data))
+
+filehandling()
+
 def freq():
 
-  f =open( "C:\Users\V.P Singh\Desktop\khushveer file1.txt" ,'r')
+  f =open( https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt ,'r')
 
   data =f.read()
 
@@ -495,11 +522,79 @@ def freq():
   d ={}
 
   for i in data:
+   
     b =data.count(i)
+   
     d[i]=b
+
   print(d)
+
 freq()
 
+
+def reverse_words():
+ 
+  f =open("https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt")
+
+  data1 =f.read()
+  
+  data2 =data1.split()
+
+  reverse =data2[ ::-1]
+
+  print(" reverse words:","".jion(reverse))
+
+reverse_words()
+
+def file1_and_file2():
+
+  f =open(r"https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt")
+
+  f3 =open(w"https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file%203.txt")
+
+  f4 =open(w"")
+
+  lines =f.readlines()
+
+  for i in range(len(lines)):
+
+     if i%2==0:
+       f3.wreite(lines[i])
+  else:
+    f4.write(lines[i])
+
+  f.close()
+
+  f3.close()
+
+  f4.close()
+
+  file5 =open()
+
+  file6 =open()
+
+  print("even lines:",file5.read())
+
+  print("odd lines:",file6.read())
+
+  f5.close()
+
+  f6.close()
+
+file1_and_file2()
+
+
+
+
+
+
+
+
+
+
+
+
+  
 file 2 -- https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt
 file 3 --https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file%203.txt
 file 1 --https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file1.txt
