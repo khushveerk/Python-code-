@@ -364,16 +364,25 @@ def occurances(a,b):
     while i<=len(a):
      
       c=a.find(b,i)
+     
       if c== -1:
+      
        break
+      
       i = c+len(b)
+      
       newlist.append(c)
+    
     print(newlist)
 
 a=input("enter first string; ")
+
 b=input("enter second string; ")
+
 occurances(a,b)
 
+
+![Screenshot 2024-11-07 150130](https://github.com/user-attachments/assets/b0a92e87-cc70-4513-859f-82c72f08e04f)
 
 
 
