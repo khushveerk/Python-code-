@@ -283,6 +283,7 @@ string = "hello world to python tutorial"
 
 print(string[ :0])
 
+![Screenshot 2024-11-07 114402](https://github.com/user-attachments/assets/636c507d-7afc-4e33-ae1c-4fe52059df51)
 
 
 
