@@ -260,7 +260,7 @@ print("frequency of" , character ,'is', f)
 
 string = "hello world to python"
 
-print(string replace ("e","i"))
+print(string.replace ("e","i"))
 
 
 ![Screenshot 2024-11-07 113427](https://github.com/user-attachments/assets/5480e2ce-5bf2-48cf-98c9-c3da63472fec)
@@ -269,9 +269,19 @@ print(string replace ("e","i"))
 
 ### c. remove the first occurance os a character from a satring .
 
+string = "hello world to python program"
+
+print(string[3:len(string)])
+
+
+
+
+
 ### d. remove all the occurances of a character from a string
 
+string = "hello world to python tutorial"
 
+print(string[ :0])
 
 
 
