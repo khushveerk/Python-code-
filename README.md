@@ -260,9 +260,10 @@ print("frequency of" , character ,'is', f)
 
 string = "hello world to python"
 
-print(string replace ("h","t"))
+print(string replace ("e","i"))
 
 
+![Screenshot 2024-11-07 113427](https://github.com/user-attachments/assets/5480e2ce-5bf2-48cf-98c9-c3da63472fec)
 
 
 
