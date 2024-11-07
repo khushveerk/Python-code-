@@ -30,7 +30,7 @@ else:
 
 ## practical 2 - WAP to accept a number 'n' to compute the following:
 
-a. Check if 'n' is prime or not.
+### a. Check if 'n' is prime or not.
 code= 
 
 n =eval(input("enter value ")) 
@@ -63,7 +63,7 @@ enter value 29
 
 29 prime number
 
-b. Generate all prime numbers till 'n'
+### b. Generate all prime numbers till 'n'
 
 Code =
 
@@ -136,11 +136,11 @@ print_reverse_pyramid(rows)
 
 ## practical 4 - WAP that accepts a character and performances the following.
 
-a. print whether the character is a letter or numeric digit or a special character. 
+### a. print whether the character is a letter or numeric digit or a special character. 
 
-b. if the character is a letter, print whether the letter is uppercase or lowercase. 
+### b. if the character is a letter, print whether the letter is uppercase or lowercase. 
 
-c. if the character is numeric digit, print its name in the text.
+### c. if the character is numeric digit, print its name in the text.
 
   
 charac = input("Enter the data: ")
@@ -234,4 +234,47 @@ print(" string2 =", string2)
 
 ![IMG_20241106_115748_028](https://github.com/user-attachments/assets/bac06745-7b54-4056-84ee-a461fb68ec19)
 
-    
+
+
+## practical 7 - WAP to perform the following operations on a string. 
+
+### a. find the frequency of a character in a string . 
+
+string = "hello world to python"
+
+character = input("enter a character ")
+
+f=0
+
+for f in string:
+
+   if i ==character:
+     f+=1
+print("frequency of" , character ,'is', f)     
+
+
+
+
+### b. replace a character by another character in a string .
+
+### c. remove the first occurance os a character from a satring .
+
+### d. remove all the occurances of a character from a string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
