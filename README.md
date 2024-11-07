@@ -402,9 +402,9 @@ cubes()
 ![Screenshot 2024-11-07 151910](https://github.com/user-attachments/assets/0aee5bdc-285f-4723-b396-0b4ca85f8824)
 
 
-## practical 11 - consider a tuple t1 =(1,4,6,3,2,8,5,10,9,7,6). WAP to  
+## practical 11 - consider a tuple t1 =(1,4,6,3,2,8,5,10,9,7,6). WAP to perform the following.
 
-### (a.) 
+### (a.)  print half the values of the tuple in one line and other half in the other next line.
 
 t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
@@ -420,7 +420,7 @@ print("second_half" ,second_half )
 
 ![Screenshot 2024-11-07 153337](https://github.com/user-attachments/assets/ec1f42c5-a0cd-45bf-8ddc-6f698f086fc3)
 
-### (b.) 
+### (b.) Print another tuple whose values are even numbers in a given tuple.
 
 t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
@@ -431,7 +431,7 @@ print("tuple with even number ", even_number )
 ![Screenshot 2024-11-07 154105](https://github.com/user-attachments/assets/9047ffe3-d839-4ad8-a6d2-101b85dd11f8)
 
 
-### (c.) 
+### (c.) Concatenate a tuple t2 =(12,15,11) with t1.
 
 t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
@@ -445,7 +445,7 @@ print("tuple with concatenation  ", concatenation )
 
  
 
-### (d.) 
+### (d.) return Maximum and minimum value from this given tuple.
 
 t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
