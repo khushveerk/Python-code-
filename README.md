@@ -273,7 +273,7 @@ string = "hello world to python program"
 
 print(string[3:len(string)])
 
-
+![Screenshot 2024-11-07 114106](https://github.com/user-attachments/assets/64a834c4-7768-4cf8-93a3-5ab1705db93e)
 
 
 
