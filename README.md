@@ -452,5 +452,6 @@ print("maximum value in t1 is ", max(t1))
 
 print("minimum value in t1 is ", min(t1))
 
+![Screenshot 2024-11-07 154955](https://github.com/user-attachments/assets/5c9ba36f-bad3-4374-a3bc-d32ac27fe950)
 
 
