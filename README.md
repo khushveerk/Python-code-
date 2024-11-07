@@ -246,7 +246,7 @@ character = input("enter a character ")
 
 f=0
 
-for f in string:
+for i in string:
 
    if i ==character:
      f+=1
