@@ -258,6 +258,14 @@ print("frequency of" , character ,'is', f)
 
 ### b. replace a character by another character in a string .
 
+string = "hello world to python"
+
+print(string replace ("h","t"))
+
+
+
+
+
 ### c. remove the first occurance os a character from a satring .
 
 ### d. remove all the occurances of a character from a string
