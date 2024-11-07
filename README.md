@@ -425,6 +425,7 @@ print("second_half" ,second_half )
 t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
 even_number = tuple(filter(lambda x: x%2==0, t1))
+
 print("tuple with even number ", even_number )
 
 ![Screenshot 2024-11-07 154105](https://github.com/user-attachments/assets/9047ffe3-d839-4ad8-a6d2-101b85dd11f8)
@@ -453,5 +454,33 @@ print("maximum value in t1 is ", max(t1))
 print("minimum value in t1 is ", min(t1))
 
 ![Screenshot 2024-11-07 154955](https://github.com/user-attachments/assets/5c9ba36f-bad3-4374-a3bc-d32ac27fe950)
+
+
+
+## practical 12- WAP to accept a name from a user. Raisen and handle appropriate exception(s) if the text entered by the user contains digits and /or special characters . 
+
+name =input("enter a name ")
+
+try:
+   
+    if name.isalpha():
+       
+       print(" This is correct name ")
+
+    else:
+      
+       raise Exception(" There is name error ")
+
+except Exception as e:
+   
+    print(e)
+
+
+
+
+
+
+
+
 
 
