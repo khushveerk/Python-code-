@@ -385,13 +385,13 @@ occurances(a,b)
 ![Screenshot 2024-11-07 150130](https://github.com/user-attachments/assets/b0a92e87-cc70-4513-859f-82c72f08e04f)
 
 
-## practical 10 - Write a function thatprints a dictionary where the keys are numbers between 1 and 5 and the values are the cubes of the keys .
+## practical 10 - Write a function that prints a dictionary where the keys are numbers between 1 and 5 and the values are the cubes of the keys .
 
 def cubes():
  
  dict={}
 
- for i in range (1,6):
+ for i in range (1,9):
  
    dict[i] = i**3
 
@@ -400,6 +400,29 @@ def cubes():
 cubes()
 
 ![Screenshot 2024-11-07 151910](https://github.com/user-attachments/assets/0aee5bdc-285f-4723-b396-0b4ca85f8824)
+
+
+## practical 11 - consider a tuple t1 =(1,4,6,3,2,8,5,10,9,7,6). WAP to  
+
+
+
+
+(a.) 
+
+t1 =(1,4,6,3,2,8,5,10,9,7,6)
+
+half_value=len(t1)//2
+
+first_half = t1[ :half_value]
+
+print("first_half" ,first_half )
+
+second_half = t1[half_value: ]
+
+print("second_half" ,second_half )   
+
+
+
 
 
 
