@@ -486,7 +486,7 @@ except Exception as e:
 {write before this to}
 def freq():
 
-  f =open("C:\Users\V.P Singh\Desktop\khushveer.txt.txt", 'r')
+  f =open( "C:\Users\V.P Singh\Desktop\khushveer file1.txt.txt" ,'r')
 
   data =f.read()
 
