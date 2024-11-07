@@ -97,13 +97,16 @@ count = 0
 number = 2
 while count < n:
    for i in range(2,number):
-      if number % i == 0
+      if number % i == 0:
        number += 1
        break
    else:
       print(number, end=',')
       count+= 1
       number+= 1
+
+![Screenshot 2024-11-07 131319](https://github.com/user-attachments/assets/019f4a6a-8baf-4254-ae80-0cc8b9ba443f)
+
 
 
 
