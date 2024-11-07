@@ -427,7 +427,7 @@ t1 =(1,4,6,3,2,8,5,10,9,7,6)
 even_number = tuple(filter(lambda x: x%2==0, t1))
 print("tuple with even number ", even_number )
 
-
+![Screenshot 2024-11-07 154105](https://github.com/user-attachments/assets/9047ffe3-d839-4ad8-a6d2-101b85dd11f8)
 
 
 ### (c.) 
