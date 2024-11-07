@@ -89,7 +89,24 @@ Output enter value 100 2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 
 
 ![IMG-20241106-WA0006](https://github.com/user-attachments/assets/34b98eb9-3093-485d-b684-01582cbdeccd)
 
-### c. 
+### c. generate first 'n' prime numbers
+
+n =eval(input("enter value ")) 
+
+count = 0
+number = 2
+while count < n:
+   for i in range(2,number):
+      if number % i == 0
+       number += 1
+       break
+   else:
+      print(number, end=',')
+      count+= 1
+      number+= 1
+
+
+
 
 ## practical 3 - WAP to create a pyramid of the character '*' and a reverse pyramid.
 
