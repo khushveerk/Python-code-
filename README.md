@@ -1,4 +1,5 @@
 # Python-code-
+
 ## practical 1 - WAP to find the roots of a quadratic equation.
 
 
@@ -88,6 +89,8 @@ Output enter value 100 2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 
 
 ![IMG-20241106-WA0006](https://github.com/user-attachments/assets/34b98eb9-3093-485d-b684-01582cbdeccd)
 
+
+
 ## practical 3 - WAP to create a pyramid of the character '*' and a reverse pyramid.
 
 
@@ -129,6 +132,8 @@ print_reverse_pyramid(rows)
 
 
 
+
+
 ## practical 4 - WAP that accepts a character and performances the following.
 
 a. print whether the character is a letter or numeric digit or a special character. 
@@ -166,6 +171,8 @@ else:
 ![IMG-20241106-WA0010](https://github.com/user-attachments/assets/af3bf10a-22b0-41d2-bb60-c8e6d3c881b9)
     
    
+
+
 ## practical 5 - WAP to swap the first n characters of two strings .
 
 str1 =input("enter first string ")
@@ -190,7 +197,10 @@ else:
 ![image](https://github.com/user-attachments/assets/48b4bf0b-3c93-458d-8906-9df8854dfe5d)
 
 
-## practical 6 -
+
+
+
+## practical 6 - WAP to 
 
 print("Enter the first string:", end="")
 
