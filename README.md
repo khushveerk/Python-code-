@@ -385,8 +385,19 @@ occurances(a,b)
 ![Screenshot 2024-11-07 150130](https://github.com/user-attachments/assets/b0a92e87-cc70-4513-859f-82c72f08e04f)
 
 
+## practical 10 - Write a function thatprints a dictionary where the keys are numbers between 1 and 5 and the values are the cubes of the keys .
 
+def cubes():
+ 
+ dict={}
 
+ for i in range (1,6):
+ 
+   dict[i] = i**3
+
+ print(dict)
+
+cubes()
 
 
 
