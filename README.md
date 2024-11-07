@@ -252,6 +252,7 @@ for i in string:
      f+=1
 print("frequency of" , character ,'is', f)     
 
+![Screenshot 2024-11-07 112630](https://github.com/user-attachments/assets/965af336-aee9-43b1-885f-93e89f10e10f)
 
 
 
