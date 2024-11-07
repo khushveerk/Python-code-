@@ -137,7 +137,9 @@ print_reverse_pyramid(rows)
 ## practical 4 - WAP that accepts a character and performances the following.
 
 a. print whether the character is a letter or numeric digit or a special character. 
+
 b. if the character is a letter, print whether the letter is uppercase or lowercase. 
+
 c. if the character is numeric digit, print its name in the text.
 
   
