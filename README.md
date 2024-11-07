@@ -481,7 +481,42 @@ except Exception as e:
 ![Screenshot 2024-11-07 160243](https://github.com/user-attachments/assets/a9864f28-1803-46bc-9098-31097e2e6b2f)
 
 
+## practical 13.- page==9.pdf
 
+{write before this to}
+def freq():
+
+  f =open("C:\Users\V.P Singh\Desktop\khushveer.txt.txt", 'r')
+
+  data =f.read()
+
+  f.close()
+
+  d ={}
+
+  for i in data:
+    b =data.count(i)
+    d[i]=b
+  print(d)
+freq()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
