@@ -286,6 +286,11 @@ print(string[ :0])
 ![Screenshot 2024-11-07 114402](https://github.com/user-attachments/assets/636c507d-7afc-4e33-ae1c-4fe52059df51)
 
 
+print(string[ :2])
+
+
+![Screenshot 2024-11-07 114538](https://github.com/user-attachments/assets/9df7d84a-bd5e-4c58-a7f0-028ada7db6bb)
+
 
 
 
