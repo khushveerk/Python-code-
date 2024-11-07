@@ -89,7 +89,7 @@ Output enter value 100 2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 
 
 ![IMG-20241106-WA0006](https://github.com/user-attachments/assets/34b98eb9-3093-485d-b684-01582cbdeccd)
 
-
+### c. 
 
 ## practical 3 - WAP to create a pyramid of the character '*' and a reverse pyramid.
 
