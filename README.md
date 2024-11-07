@@ -440,11 +440,17 @@ concatenation= (t1 ,t2)
 
 print("tuple with concatenation  ", concatenation )
 
+![Screenshot 2024-11-07 154606](https://github.com/user-attachments/assets/96394980-9de9-4dc6-8954-ecdb623c90f3)
+
  
 
 ### (d.) 
 
 t1 =(1,4,6,3,2,8,5,10,9,7,6)
+
+print("maximum value in t1 is ", max(t1))
+
+print("minimum value in t1 is ", min(t1))
 
 
 
