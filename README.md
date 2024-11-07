@@ -501,7 +501,8 @@ def freq():
 freq()
 
 file 2 -- https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt
-file 3 ---"C:\Users\V.P Singh\Desktop\khushveer file 3.txt"
+file 3 ---
+file 3
 file 4 ----"C:\Users\V.P Singh\Desktop\khushveer file 4.txt"
 
 
