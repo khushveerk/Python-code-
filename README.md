@@ -404,10 +404,7 @@ cubes()
 
 ## practical 11 - consider a tuple t1 =(1,4,6,3,2,8,5,10,9,7,6). WAP to  
 
-
-
-
-(a.) 
+### (a.) 
 
 t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
@@ -421,13 +418,28 @@ second_half = t1[half_value: ]
 
 print("second_half" ,second_half )   
 
+![Screenshot 2024-11-07 153337](https://github.com/user-attachments/assets/ec1f42c5-a0cd-45bf-8ddc-6f698f086fc3)
+
+### (b.) 
+
+t1 =(1,4,6,3,2,8,5,10,9,7,6)
+
+even_number = tuple(filter(lambda x: x%2==0, t1))
+print("tuple with even number ", even_number )
 
 
 
 
+### (c.) 
+
+t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
 
 
+
+### (d.) 
+
+t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
 
 
