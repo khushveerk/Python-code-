@@ -434,8 +434,13 @@ print("tuple with even number ", even_number )
 
 t1 =(1,4,6,3,2,8,5,10,9,7,6)
 
+t2 =(12,15,11)
 
+concatenation= (t1 ,t2)
 
+print("tuple with concatenation  ", concatenation )
+
+ 
 
 ### (d.) 
 
