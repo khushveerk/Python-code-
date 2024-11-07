@@ -107,7 +107,13 @@ while count < n:
 
 ![Screenshot 2024-11-07 131319](https://github.com/user-attachments/assets/019f4a6a-8baf-4254-ae80-0cc8b9ba443f)
 
+### d. calculate the summ of first 'n' natural numberws.
 
+n =eval(input("enter value ")) 
+sum =0
+for i in range(1,n+1):
+    sum += i
+    print(sum)
 
 
 
