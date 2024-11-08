@@ -233,7 +233,8 @@ else:
 
 
 
-## practical 6 - WAP to 
+## practical 6 - WAP to swap the first n characters of two strings .
+
 
 print("Enter the first string:", end="")
 
