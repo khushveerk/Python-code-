@@ -667,7 +667,7 @@ process_file('khushveer file2.txt')
 
 
 
-
+![Screenshot_2024-11-08-05-37-08-855](https://github.com/user-attachments/assets/88e22ca5-bfe6-4673-a50f-b3774331da31)
 
 
 
