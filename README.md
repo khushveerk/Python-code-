@@ -33,7 +33,7 @@ else:
 ### a. Check if 'n' is prime or not.
 code= 
 
-n =eval(input("enter value ")) 
+n =int(input("enter value ")) 
 
 if n>1:
    
@@ -91,16 +91,22 @@ Output enter value 100 2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 
 
 ### c. generate first 'n' prime numbers
 
-n =eval(input("enter value ")) 
+n =int(input("enter value ")) 
 
 count = 0
+
 number = 2
+
 while count < n:
+  
    for i in range(2,number):
+     
       if number % i == 0:
        number += 1
        break
+  
    else:
+    
       print(number, end=',')
       count+= 1
       number+= 1
@@ -110,10 +116,14 @@ while count < n:
 
 ### d. calculate the summ of first 'n' natural numberws.
 
-n =eval(input("enter value ")) 
+n =int(input("enter value ")) 
+
 sum =0
+
 for i in range(1,n+1):
+   
     sum += i
+
 print(sum)
 
 
