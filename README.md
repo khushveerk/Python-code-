@@ -603,7 +603,67 @@ file 4 ----"C:\Users\V.P Singh\Desktop\khushveer file 4.txt"
 
 
 
+### OR 
 
+
+def process_file(file_name):
+  
+    try:
+        with open(file_name, 'r') as file:
+            content = file.readlines()
+        
+        # a. Print the total numbers of characters, words, and lines in the file.
+        
+        total_characters = sum(len(line) for line in content)
+        total_words = sum(len(line.split()) for line in content)
+        total_lines = len(content)
+
+        print(f'Total Characters: {total_characters}')
+        print(f'Total Words: {total_words}')
+        print(f'Total Lines: {total_lines}')
+
+        # b. Calculate the frequency of each character in the file.
+        
+        char_frequency = {}
+        for line in content:
+            for char in line:
+                if char in char_frequency:
+                    char_frequency[char] += 1
+                else:
+                    char_frequency[char] = 1
+
+        print("Character Frequency:")
+        for char, freq in char_frequency.items():
+            print(f"'{char}': {freq}")
+
+        # c. Print the words in reverse order.
+        
+        words = []
+        for line in content:
+            words.extend(line.split())
+        
+        print("Words in Reverse Order:")
+        print(' '.join(reversed(words)))
+
+        # d. Copy even lines of the file to "file1" and odd lines to "file2".
+        
+        with open('file1.txt', 'w') as file1, open('file2.txt', 'w') as file2:
+            for index, line in enumerate(content):
+                if index % 2 == 0:  # even line (0-based index)
+                    file1.write(line)
+                else:  # odd line
+                    file2.write(line)
+
+        print("Even and odd lines have been copied to 'file1.txt' and 'file2.txt' respectively.")
+
+    except FileNotFoundError:
+        print(f"The file '{file_name}' does not exist.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+#Replace 'yourfile.txt' with the path to your file.
+
+process_file('')
 
 
 
