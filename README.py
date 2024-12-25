@@ -243,7 +243,7 @@ n=str1[ :n1]
 
 m=str2[ :n1]
 
-if n1 <= min(len(str1),le(str)):
+if n1 <= min(len(str1),len(str2)):
   
   print(str1.replace(n,m))
 
