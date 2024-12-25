@@ -13,6 +13,7 @@
 ![IMG-20241106-WA0006](https://github.com/user-attachments/assets/34b98eb9-3093-485d-b684-01582cbdeccd)
 
 ### b. Generate all prime numbers till 'n'
+![Screenshot 2024-12-25 092731](https://github.com/user-attachments/assets/d585095a-e398-4883-b441-a063b8a5b8bc)
 
 
 ### c. generate first 'n' prime numbers
