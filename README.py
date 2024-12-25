@@ -39,15 +39,15 @@ if n>1:
    
    for i in range(2,n):
    
-   if n % 10:
+    if n % 10:
    
-   print(n, "not a prime number") 
+      print(n, "not a prime number") 
   
-   break
+      break
 
-else:
+   else:
    
-   print(n, "prime number") 
+    print(n, "prime number") 
 
 else: 
    
