@@ -88,6 +88,21 @@ Output enter value 100 2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 
 ![IMG-20241106-WA0007](https://github.com/user-attachments/assets/fa5f115c-003a-4b6a-a5e6-e5da76402c89)
 
 ![IMG-20241106-WA0006](https://github.com/user-attachments/assets/34b98eb9-3093-485d-b684-01582cbdeccd)
+         ##OR
+m =int(input("enter the value of m"))
+n =int(input("enter the value of n"))
+for num in range(m,n+1):
+   if num>1:
+     for i in range (2,num):
+        if num% i==0:
+           break
+        else:
+            print(num)
+
+
+
+
+
 
 ### c. generate first 'n' prime numbers
 
